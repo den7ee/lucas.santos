@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Project } from "./Project"
+import underConstructionImage from '../assets/images/jogo-do-galo.png'
 
 type Projects = {
 
@@ -20,8 +21,8 @@ export function Projects(props:Projects) {
           tech1="vscode-icons:file-type-angular"
           tech2="logos:sass"
           tech3="vscode-icons:file-type-typescript-official"
-          gitHubLink="/images/jogo-do-galo.png"
-          link="/images/jogo-do-galo.png"
+          gitHubLink={underConstructionImage}
+          link={underConstructionImage}
           />
 
           <Project 

@@ -1,4 +1,6 @@
 import { useTranslation } from "react-i18next";
+import cvEn from '../assets/downloads/Lucas Santos - Resume (EN).pdf'
+import cvPT from '../assets/downloads/Lucas Santos - Resume (PT).pdf'
 
 type Footer = {
 
@@ -45,7 +47,7 @@ export function Footer(props:Footer) {
                 {t("Currículo")}
                 </h2>
                 <div>
-                    <a href="/Downloads/Lucas Santos - Resume (PT).pdf"
+                    <a href={cvPT}
                     target='_blank'
                     >
                         <p className="text-base text-neutral-400">
@@ -53,7 +55,7 @@ export function Footer(props:Footer) {
                         </p>
                     </a>
 
-                    <a href="/Downloads/Lucas Santos - Resume (EN).pdf"
+                    <a href={cvEn}
                     target='_blank'
                     >
                         <p className="text-base text-neutral-400">

@@ -1,5 +1,6 @@
 import { Accordion } from './Accordion';
 import { useTranslation } from 'react-i18next';
+import React from 'react';
 
 function SkillSection() {
   const { t } = useTranslation();

@@ -4,11 +4,10 @@ import { Rating } from "./Rating";
 type Accordion = {
   icon: string;
   starRating: number;
-  contentP1?: string;
-  contentP2?: string;
-  contentP3?: string;
-  contentP4?: string;
-  contentP5?: string;
+  contentP1?: string | null;
+  contentP2?: string | null;
+  contentP3?: string | null;
+  contentP4?: string | null;
 }
 
 export function Accordion(props:Accordion){
@@ -65,7 +64,6 @@ export function Accordion(props:Accordion){
           <p className="text-black p-1">{props.contentP2}</p>
           <p className="text-black p-1">{props.contentP3}</p>
           <p className="text-black p-1">{props.contentP4}</p>
-          <p className="text-black p-1">{props.contentP5}</p>
         </div>
       </div>
     </div>

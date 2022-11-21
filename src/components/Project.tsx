@@ -1,5 +1,4 @@
 import { Icon, IconifyIcon } from "@iconify/react";
-import { Link } from 'react-router-dom';
 
 type Project = {
     name: string;

@@ -1,8 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { Icon, IconifyIcon } from "@iconify/react";
 
 type Project = {
     name: string;
-    description: string;
+    obs?: string | null;
     tech1: string;
     tech2: string;
     tech3: string;
@@ -11,21 +12,32 @@ type Project = {
 }
 
 export function Project(props:Project) {
+  const { t } = useTranslation();
     return(
         <div className="
           bg-neutral-700
           rounded
           relative
+          p-2
+          h-40
+          w-40  
+          mx-auto
           ">
             <div className="
-            p-10
             ">
               <h2 className="
-              text-white">
+              text-white
+              m-2
+              ">
                 {props.name}
+                <p className="absolute">
+                  {props.obs}
+                </p>
+                <p className="mt-6">
+                  {t("Feito com")}:
+                </p>
                 <div className="
                 flex
-                gap-1
                 ">
                     <Icon 
                     width="1.5em" 
@@ -48,20 +60,11 @@ export function Project(props:Project) {
                 </div>
               </h2>
 
-              <p className="
-              text-neutral-300
-              my-2
-              text-xs
-              ">
-                {props.description}
-              </p>
-
               <div className="
-              flex
-              gap-2
               absolute 
               bottom-1 
               right-1
+              flex
               ">
                 <p>
                   <a 
@@ -75,6 +78,7 @@ export function Project(props:Project) {
                     />
                   </a>
                 </p>
+
                 <p>
                   <a href={props.gitHubLink}
                   target='_blank'

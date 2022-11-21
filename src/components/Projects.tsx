@@ -16,8 +16,8 @@ export function Projects(props:Projects) {
 
         <div className="grid grid-cols-2 p-10 gap-10">
           <Project 
-          name={t("Jogo do Galo")} 
-          description={t("Projeto (Em Construção) para compreender o básico em Angular.")}
+          name={t("Jogo do Galo")}
+          obs={t("(Em construção)")}
           tech1="vscode-icons:file-type-angular"
           tech2="logos:sass"
           tech3="vscode-icons:file-type-typescript-official"
@@ -26,8 +26,7 @@ export function Projects(props:Projects) {
           />
 
           <Project 
-          name={t("Portfólio 3.0")} 
-          description={t("Versão atual do meu portfólio.")}
+          name={t("Portfólio 3.0")}
           tech1="logos:react"
           tech2="vscode-icons:file-type-tailwind"
           tech3="vscode-icons:file-type-typescript-official"
@@ -37,7 +36,6 @@ export function Projects(props:Projects) {
 
           <Project 
           name={t("Portfólio 2.0")} 
-          description={t("Segunda versão do meu portfólio.")}
           tech1="vscode-icons:file-type-html"
           tech2="vscode-icons:file-type-css"
           tech3="logos:javascript"
@@ -47,7 +45,6 @@ export function Projects(props:Projects) {
 
           <Project 
           name={t("Portfólio 1.0")} 
-          description={t("Primeira versão do meu portfólio.")}
           tech1="vscode-icons:file-type-html"
           tech2="vscode-icons:file-type-css"
           tech3=""

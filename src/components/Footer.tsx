@@ -6,12 +6,7 @@ type Footer = {
 
 }
 
-const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth' // for smoothly scrolling
-    });
-  };
+
 
 export function Footer(props:Footer) {
     const { t } = useTranslation();
@@ -42,6 +37,7 @@ export function Footer(props:Footer) {
                 </div>
             </div>
 
+           
             <div>
                 <h2 className="text-lg">
                 {t("Currículo")}
@@ -65,13 +61,7 @@ export function Footer(props:Footer) {
                 </div>
             </div>
 
-            <div>
-                <button onClick={scrollToTop}>
-                    <h2 className="text-lg">
-                    {t("Go back to Top")} 
-                    </h2>
-                </button>
-            </div>
+            
         </div>      
     )
 }

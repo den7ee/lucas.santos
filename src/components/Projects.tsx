@@ -9,12 +9,12 @@ type Projects = {
 export function Projects(props:Projects) {
     const { t } = useTranslation();
     return(
-    <div className='bg-white rounded-md max-w-xl mx-auto p-4 m-6'>
+    <div className='bg-white rounded-md max-w-xl mx-auto m-10 grid'>
         <div className='text-black text-center p-2'>
             <h2 className=' text-black text-2xl'>Projects</h2>
         </div>
 
-        <div className="grid grid-cols-2 p-5 gap-5">
+        <div className="grid grid-cols-2 m-5 gap-5">
           <Project 
           name={t("Jogo do Galo")}
           obs={t("(Em construção)")}

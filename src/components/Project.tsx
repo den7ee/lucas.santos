@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Icon, IconifyIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 
 type Project = {
     name: string;
@@ -18,10 +18,7 @@ export function Project(props:Project) {
           bg-neutral-700
           rounded
           relative
-          p-1
-          h-40
-          w-40  
-          mx-auto
+          h-48
           ">
             <div className="
             ">

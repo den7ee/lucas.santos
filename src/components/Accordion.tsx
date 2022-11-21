@@ -16,9 +16,8 @@ export function Accordion(props:Accordion){
     <div className="
     relative
     mx-auto
-    max-w-xs
     overflow-hidden
-    mb-5
+    px-3
     ">
       <input type="checkbox"
       className="

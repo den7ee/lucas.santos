@@ -31,8 +31,8 @@ export function Projects(props:Projects) {
           tech1="logos:react"
           tech2="vscode-icons:file-type-tailwind"
           tech3="vscode-icons:file-type-typescript-official"
-          gitHubLink="https://github.com/den7ee/den7ee.github.io"
-          link="https://den7ee.github.io/"
+          gitHubLink="https://github.com/den7ee/lucas.santos"
+          link="https://den7ee.github.io/lucas.santos/"
           />
 
           <Project 
@@ -41,8 +41,8 @@ export function Projects(props:Projects) {
           tech1="vscode-icons:file-type-html"
           tech2="vscode-icons:file-type-css"
           tech3="logos:javascript"
-          gitHubLink="https://github.com/den7ee/tic-tac-toe"
-          link="/projects/portfolio-v2.0/index.html"
+          gitHubLink="https://github.com/den7ee/portfolio-2.0"
+          link="https://den7ee.github.io/portfolio-2.0/"
           />
 
           <Project 
@@ -51,8 +51,8 @@ export function Projects(props:Projects) {
           tech1="vscode-icons:file-type-html"
           tech2="vscode-icons:file-type-css"
           tech3=""
-          gitHubLink="https://github.com/den7ee/tic-tac-toe"
-          link="/projects/portfolio-v1.0/index.html"
+          gitHubLink="https://github.com/den7ee/portfolio-1.0"
+          link="https://den7ee.github.io/portfolio-1.0/"
           />
 
         </div>

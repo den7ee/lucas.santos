@@ -19,8 +19,8 @@ export function Project(props:Project) {
           rounded
           relative
           p-2
-          h-40
-          w-40  
+          h-28
+          w-28  
           mx-auto
           ">
             <div className="

@@ -5,12 +5,12 @@ import React from 'react';
 function SkillSection() {
   const { t } = useTranslation();
   return (
-    <div className='bg-white rounded-md max-w-xl mx-auto p-4 -mt-7'>
+    <div className='bg-white rounded-md max-w-xl mx-auto pb-2'>
       <div className='text-black text-center p-2'>
         <h2 className=' text-black text-2xl'>{t("Tech Skills")}</h2>
         <p className='text-neutral-700'>{t("Click for show/hide details")}</p>
       </div>
-        <div className='ml-28'>
+        <div className=''>
           <Accordion 
           icon='logos:react' 
           starRating={5}

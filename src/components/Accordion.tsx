@@ -15,8 +15,11 @@ export function Accordion(props:Accordion){
   return (    
     <div className="
     relative
+    mx-auto
     max-w-xs
-    overflow-hidden">
+    overflow-hidden
+    mb-5
+    ">
       <input type="checkbox"
       className="
       peer

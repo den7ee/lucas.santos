@@ -16,7 +16,7 @@ const scrollToTop = () => {
 export function Footer(props:Footer) {
     const { t } = useTranslation();
     return(
-        <div className="flex justify-between bg-neutral-800 px-16 py-4">
+        <div className="flex justify-between bg-neutral-800 px-8 py-4">
             <div>
                 <h2 className="text-lg">
                 Lucas Santos

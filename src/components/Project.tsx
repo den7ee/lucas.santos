@@ -18,7 +18,7 @@ export function Project(props:Project) {
           relative
           ">
             <div className="
-            p-6
+            p-10
             ">
               <h2 className="
               text-white">
@@ -51,6 +51,7 @@ export function Project(props:Project) {
               <p className="
               text-neutral-300
               my-2
+              text-xs
               ">
                 {props.description}
               </p>

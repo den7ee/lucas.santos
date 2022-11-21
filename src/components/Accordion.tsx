@@ -46,7 +46,7 @@ export function Accordion(props:Accordion){
       bg-neutral-200
       overflow-hidden
       transition-all
-      duration-700
+      duration-200
       max-h-0 peer-checked:max-h-52
       -m-1
       mb-1

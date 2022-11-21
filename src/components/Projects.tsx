@@ -14,7 +14,7 @@ export function Projects(props:Projects) {
             <h2 className=' text-black text-2xl'>Projects</h2>
         </div>
 
-        <div className="grid grid-cols-2 p-10 gap-10">
+        <div className="grid grid-cols-2 p-5 gap-5">
           <Project 
           name={t("Jogo do Galo")}
           obs={t("(Em construção)")}

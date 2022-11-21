@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='flex items-center justify-center flex-col py-20'>
         <div className='text-center place-self-center'>
-            <img className='rounded-full w-64 mb-3' src='../images/profile.png'/>
+            <img className='rounded-full w-64 mb-3' src='/images/profile.png'/>
             <h1>Lucas Santos</h1>
             <p className='text-neutral-400'>{t("Looking for a first experience")}</p>
             <p className='text-neutral-400'>{t("as Jr. Front End Developer.")}</p>

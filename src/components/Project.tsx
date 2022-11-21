@@ -18,9 +18,9 @@ export function Project(props:Project) {
           bg-neutral-700
           rounded
           relative
-          p-2
-          h-28
-          w-28  
+          p-1
+          h-40
+          w-40  
           mx-auto
           ">
             <div className="

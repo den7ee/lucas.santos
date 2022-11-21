@@ -1,0 +1,99 @@
+{
+    "translation": {
+        "Looking for a first experience": "Em busca de uma primeira experiência",
+        "as Jr. Front End Developer.": "como desenvolvedor Front End Jr.",
+        "in Portugal": "em Portugal",
+
+        "Tech Skills": "Habilidades Técnicas",
+        "Click for show/hide details": "Clique para mostrar/esconder detalhes",
+        "I know how": "Eu sei como",
+
+        " - Criar um projeto com 'npx create-react-app';": " - Criar um projeto com 'npx create-react-app';",
+
+        " - Utilizar o framework i18n para um projeto multi linguagem;": " - Utilizar o framework i18n para Criar um projeto multi linguagem;",
+
+        " - Interpretar e customizar outros projetos  para a finalidade do meu projeto atual;": " - Interpretar e customizar outros projetos  para a finalidade do meu projeto atual;", 
+
+        " - Configurar e utilizar o comando 'npm run dev' para iniciar o server;": " - Configurar e utilizar o comando 'npm run dev' para iniciar o server;",
+
+        " - Instalar via npm ou yarn;":" - Instalar via npm ou yarn;", 
+
+        " - Configurar o arquivo tailwind.conf.cjs;":" - Configurar o arquivo tailwind.conf.cjs;",
+
+        " - Estilizar fontes e cores;": " - Estilizar fontes e cores;",
+
+        " - Criar e posicionar os elementos de acordo com o projeto;":" - Criar e posicionar os elementos de acordo com o projeto;", 
+
+        " - Utilizar a CLI para atividades básicas como criar componentes e iniciar o server;":" - Utilizar a CLI para atividades básicas como criar componentes e iniciar o server;",
+
+        " - Identificar e customizar os arquivos html, de estilo e de scripts;": " - Identificar e customizar os arquivos html, de estilo e de scripts;",
+
+        " - Criar um projeto em React ou Angular com 'npm/yarn create vite@latest';":" - Criar um projeto em React ou Angular com 'npm/yarn create vite@latest'",
+
+        " - Criar e configurar o arquivo vite.config.js;":" - Criar e configurar o arquivo vite.config.js;",
+
+        " - Instalar os pacotes do package.json com 'npm/yarn i';": " - Instalar os pacotes do package.json com 'npm/yarn i';",
+
+        " - Aplicar dos conceitos básicos de estilização como: padding, margin, allign e etc;":" - Aplicar dos conceitos básicos de estilização como: padding, margin, allign e etc;",
+
+        " - Fazer um menu drop-down e implementar um tema darkmode para um projeto;": " - Fazer um menu drop-down e implementar um tema darkmode para um projeto;",
+
+        " - Armazenar e utilizar variáveis;": " - Armazenar e utilizar variáveis;",
+
+        " - Criar e reutilizar CSS com Mixins;": " - Criar e reutilizar CSS com Mixins;",
+
+        " - Utilizar @if e @else  para adicionar lógica aos estilos;": " - Usar @if e @else  para adicionar lógica aos estilos;",
+
+        " - Dividir os arquivos de estilos em arquivos menores;": " - Dividir os arquivos de estilos em arquivos menores;",
+
+        " - Importar os arquivos .css e .js em um projeto;": " - Importar os arquivos .css e .js em um projeto;" ,
+
+        " - Aplicar o conceito de 'Container' e o 'Sistema de Grid' necessários para posicionar os elementos;": " - Aplicar o conceito de 'Container' e o 'Sistema de Grid' necessários para posicionar os elementos;",
+
+        " - Consigo utilizar os elementos em um projeto com base na documentação;":" - Consigo utilizar os elementos em um projeto com base na documentação;",
+
+        " - Instalar ou usar online em https://vscode.dev/;":" - Instalar ou usar online em https://vscode.dev/;",
+
+        " - Adicionar plugins e usar teclas de atalho básicas;":" - Adicionar plugins e usar teclas de atalho básicas;",
+
+        " - Criar um projeto inicial ou abrir um diretório de Criar um projeto já existente;":" - Criar um projeto inicial ou abrir um diretório de Criar um projeto já existente;",
+
+        " - Abrir um terminal Bash para usar CLIs;": " - Abrir um terminal Bash para usar CLIs;",
+        
+        " - Instalar, usar a CLI e  iniciar um repositório com o comando 'git init';": " - Instalar, usar a CLI e  iniciar um repositório com o comando 'git init';",
+
+        " - Adicionar as mudanças do repositório com o comando 'git add' e 'git commit';;": " - Adicionar as mudanças do repositório com o comando 'git add' e 'git commit';'",
+
+        " - Vincular um repositório local a um repositório online do GitHub ou GitLab com 'git remote origin';":  " - Vincular um repositório local a um repositório online do GitHub ou GitLab com 'git remote origin';",
+
+        " - Aplicar o conceito de escopo para declaração e utilização de funções e variáveis;": " - Aplicar o conceito de escopo para declaração e utilização de funções e variáveis;",
+
+        " - Pesquisar e adaptar trechos de código para a finalidade do meu projeto atual;": " - Pesquisar e adaptar trechos de código para a finalidade do meu projeto atual;",
+
+        " - Adicionar @types de frameworks ou bibliotecas com npm ou yarn;": " - Adicionar @types de frameworks ou bibliotecas com npm ou yarn;",
+
+        " - Utilizar tipagens básicas;":" - Usar tipagens básicas;",
+
+        "Jogo do Galo":"Jogo do galo",
+
+        "Projeto (Em Construção) para compreender o básico em Angular.": "Projeto (Em Construção) para compreender o básico em Angular.",
+
+        "Portfólio 3.0":"Portfólio 3.0",
+
+        "Versão atual do meu portfólio.": "Versão atual do meu portfólio.",
+
+        "Portfólio 2.0":"Portfólio 2.0",
+
+        "Segunda versão do meu portfólio.": "Segunda versão do meu portfólio.",
+
+        "Portfólio 1.0":"Portfólio 1.0",
+
+        "Primeira versão do meu portfólio.": "Primeira versão do meu portfólio.",
+
+        "Developer Front end Junior.":"Developer Front end Junior.",
+
+        "Currículo": "Currículo",
+
+        "Go back to Top":"Voltar ao topo"
+    }
+}
